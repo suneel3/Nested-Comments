@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nested Comments</title>
+    <link rel="stylesheet" href="style.css"
+</head>
+<body>
+<div id="comment-form">
+    <input type="text" id="comment-input" placeholder="Add a comment...">
+    <button id="submit-comment">Submit</button>
+  </div>
+  
+  <div class='comments-container'>
+     <div class='comment'>
+      <div class='parent-comment'>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTigsa3tSTmjI1-Nee2vsylFPoXSUHchsitangcPPuyDQ&s" alt='user avatar' class='avatar' />
+        <div class='comment-details'>
+          <h4 class='user-name'>Suneel Kumar</h4>
+          <p class='comment-text'>This is the first comment</p>
+          <div class='comment-actions'>
+            <button class='reply-btn'>Reply</button>
+            <button class='edit-btn'>Edit</button>
+            <button class='delete-btn'>Delete</button>
+          </div>
+        </div>
+      </div>
+      <div class='replies'>
+        <div class='comment'>
+          <div class='parent-comment'>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTigsa3tSTmjI1-Nee2vsylFPoXSUHchsitangcPPuyDQ&s" alt='user avatar' class='avatar' />
+            <div class='comment-details'>
+              <h4 class='user-name'>Suneel Kumar</h4>
+              <p class='comment-text'>This is the first comment</p>
+              <div class='comment-actions'>
+                <button class='reply-btn'>Reply</button>
+                <button class='edit-btn'>Edit</button>
+                <button class='delete-btn'>Delete</button>
+              </div>
+            </div>
+          </div>
+          <div class='replies'>
+    
+          </div>
+        </div>
+      </div>
+    </div> 
+  </div>
+<script src="script.js"></script>
+</body>
+</html>
