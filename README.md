@@ -1,3 +1,2 @@
-Project name : Nested Comments 
-Link : https://suneel3.github.io/Nested-Comments/
+Project name : Nested Comments ( https://suneel3.github.io/Nested-Comments/)
 
